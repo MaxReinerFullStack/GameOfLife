@@ -1,0 +1,14 @@
+﻿<Window x:Class="GameOfLife.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:GameOfLife"
+        mc:Ignorable="d"
+        Title="Game Of Life" Height="659.51" Width="911.137" >
+    <Grid Margin="0,0,15,-4" Height="583" VerticalAlignment="Top" HorizontalAlignment="Right" Width="878">
+        <Canvas x:Name="zeichenfläche" HorizontalAlignment="Left" Height="544" Margin="146,39,0,0" VerticalAlignment="Top" Width="688"/>
+        <Button x:Name="ButtonStarteAnim" Content="Starte Animation" Margin="10,39,767,514" Click="ButtonStarteAnim_Click" RenderTransformOrigin="1.677,-2.008" />
+        <Button x:Name="ButtonNächster" Content="Nächster Schritt" HorizontalAlignment="Right" Margin="0,74,767,482" Width="101" Click="ButtonNächster_Click" />
+    </Grid>
+</Window>
